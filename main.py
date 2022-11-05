@@ -12,7 +12,7 @@ from datetime import date
 
 app = Flask(
     __name__,
-    instance_path="C:\\Users\\davib\\Desktop\\blog"
+    # instance_path="C:\\Users\\davib\\Desktop\\blog"
 )
 app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
 ckeditor = CKEditor(app)
